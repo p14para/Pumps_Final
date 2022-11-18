@@ -1,0 +1,98 @@
+[Root]
+Most Recent Package=Standard Setup Package
+
+
+[Package|Standard Setup Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder= C:\Users\user\Desktop\pomones fakelos\pumps
+
+[Package|Standard Setup Package|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package|Files Found]
+
+[Package|Standard Setup Package|Files Released]
+
+[Package|Standard Setup Package|Missing Dependency Information]
+
+[Package|Standard Setup Package|Out-of-Date Dependency Information]
+C:\Windows\SysWOW64\MSCOMCTL.OCX=
+
+[Package|Standard Setup Package|Files Added]
+
+[Package|Standard Setup Package|Files Removed]
+
+[Package|Standard Setup Package|Files In Project]
+C:\Users\tricker\Desktop\pumps\prj_pumps.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\SysWOW64\MSCOMCTL.OCX=Yes
+C:\Program Files (x86)\Common Files\designer\MSDERUN.DLL=Yes
+C:\Windows\SysWOW64\MSCOMM32.OCX=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package|Install Locations]
+C:\Users\tricker\Desktop\pumps\prj_pumps.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files (x86)\Common Files\designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Windows\SysWOW64\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package|Configure Shared Files]
+Applicable=Yes
+C:\Users\tricker\Desktop\pumps\prj_pumps.exe=No
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Standard Setup Package|Distribution]
+Type=single
+Size=
+Title=Pumps
+
+[Package|Standard Setup Package|IconGroups]
+Group0=Pumps
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package|Pumps]
+Icon1=prj_pumps.exe
+Title1=Pumps
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package|Package]
+PackageFolder=C:\Users\tricker\Desktop\pumps\Package
+ProjectFolder=C:\Users\tricker\Desktop\pumps
+ServerSideCab=
+File1=C:\Users\tricker\Desktop\pumps\Package\setup.exe
+File2=C:\Users\tricker\Desktop\pumps\Package\Setup.Lst
+File3=C:\Users\tricker\Desktop\pumps\Package\prj_pumps.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

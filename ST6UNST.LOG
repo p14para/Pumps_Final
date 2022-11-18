@@ -1,0 +1,83 @@
+ %% PLEASE DO NOT MODIFY OR DELETE THIS FILE! %% 
+ %% This file contains information about the installation of an application. %% 
+ %% It will be used to automatically remove all application components from your computer if you choose to do so. %% 
+
+
+NOTE: Beginning of the bootstrapper section
+
+*** ERROR: Unable to create a directory named 'C:'
+*** DURING THIS ACTION: CreateDir: "C:"
+
+CONFIG: Title: "Pumps"
+
+ACTION: RegKey: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion", "SharedDLLs"
+
+ACTION: SystemFile: "C:\WINDOWS\SYSTEM32\VB6STKIT.DLL"
+(File currently on disk was already up to date)
+
+ACTION: SystemFile: "C:\WINDOWS\SYSTEM32\COMCAT.DLL"
+(File currently on disk was already up to date)
+
+ACTION: SystemFile: "C:\WINDOWS\SYSTEM32\STDOLE2.TLB"
+(File currently on disk was already up to date)
+
+ACTION: SystemFile: "C:\WINDOWS\SYSTEM32\ASYCFILT.DLL"
+(File currently on disk was already up to date)
+
+ACTION: SystemFile: "C:\WINDOWS\SYSTEM32\OLEPRO32.DLL"
+(File currently on disk was already up to date)
+
+ACTION: SystemFile: "C:\WINDOWS\SYSTEM32\OLEAUT32.DLL"
+(File currently on disk was already up to date)
+
+*** ERROR: Unable to create a directory named 'C:'
+*** DURING THIS ACTION: CreateDir: "C:"
+
+*** ERROR: Unable to create a directory named 'C:'
+*** DURING THIS ACTION: CreateDir: "C:"
+
+ACTION: SystemFile: "C:\WINDOWS\system32\msvbvm60.dll"
+(File was not found or was an older version -- new file copied)
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\COMCAT.DLL"
+
+ACTION: TLBRegister: "C:\WINDOWS\SYSTEM32\STDOLE2.TLB"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\OLEPRO32.DLL"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\OLEAUT32.DLL"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\msvbvm60.dll"
+
+NOTE: End of the bootstrapper section
+
+NOTE: Now spawning the main Setup program 'Setup1.exe'....
+
+ACTION: CreateDir: "C:\Program Files\prj_pumps"
+
+ACTION: CreateDir: "C:\Documents and Settings\user\Start Menu\Προγράμματα\Pumps"
+
+ACTION: SharedFile: "C:\WINDOWS\system32\MSCOMM32.OCX"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Designer\MSDERUN.DLL"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\MSCOMCTL.OCX"
+(File currently on disk was already up to date)
+
+ACTION: PrivateFile: "C:\Program Files\prj_pumps\prj_pumps.exe"
+(File was not found or was an older version -- new file copied)
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\MSCOMM32.OCX"
+
+ACTION: DllSelfRegister: "C:\Program Files\Common Files\Designer\MSDERUN.DLL"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\MSCOMCTL.OCX"
+
+ACTION: ShellLink: "Pumps", "Pumps"
+
+ACTION: RegKey: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion", "App Paths\prj_pumps.exe"
+
+ACTION: RegValue: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\prj_pumps.exe", ""
+
